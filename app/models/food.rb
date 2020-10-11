@@ -7,6 +7,8 @@ class Food < ApplicationRecord
         create(
             name: food["description"],
             nutrient_hash: food["foodNutrients"],
+            science_name: food["scientificName"],
+            fdcid: food["fdcId"]
         )
     end
 

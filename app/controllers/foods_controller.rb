@@ -4,4 +4,10 @@ class FoodsController < ApplicationController
         foods = Food.all
         render json: foods
     end
+
+    def show 
+        food = Food.find_by(id: params[:id])
+        render json: food
+    end
+
 end
