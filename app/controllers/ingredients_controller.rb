@@ -7,7 +7,7 @@ class IngredientsController < ApplicationController
     end
 
     def index
-        ingredients = Ingredient.all
+        ingredients = @meal.ingredients
         render json: ingredients
     end
 
