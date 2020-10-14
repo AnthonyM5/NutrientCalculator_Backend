@@ -16,4 +16,9 @@ class MealsController < ApplicationController
         render json: meals
     end
 
+    def show
+        meal = Meal.find_by(id: params[:id])
+        render json: meal
+    end
+
 end
