@@ -13,12 +13,12 @@ class MealsController < ApplicationController
 
     def index
         meals = Meal.all
-        render json: meals
+        render json: meals, include: [:ingredients]
     end
 
     def show
         meal = Meal.find_by(id: params[:id])
-        render json: meal
+        render json: meal, include: [:ingredients]
     end
 
 end
