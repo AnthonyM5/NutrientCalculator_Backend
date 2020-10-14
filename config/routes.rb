@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  resources :ingredients
-  resources :meals
+  
+  resources :meals do
+    resources :ingredients
+  end
   resources :foods
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
