@@ -11,6 +11,11 @@ class IngredientsController < ApplicationController
         render json: ingredients
     end
 
+    def destroy
+        ingredient = Ingredient.find_by(id: params[:id]) 
+        ingredient.destroy
+    end
+
     private
 
     def get_meal
