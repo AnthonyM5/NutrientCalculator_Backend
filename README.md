@@ -1,9 +1,7 @@
 # NutrientCalculator
- <a href='https://github.com/antimonysayz/NutrientCalculator_Frontend'>Frontend Application</a>
-The NutrientCalculator app is a Javascript web app with a Rails API serving as the backend. It is an attempt to simplify meals by aggregating data from the Food Data Central API and compiling a complete nutritional breakdown of meal components.  Ingredients for meals are comprised of 7,000 database records with in-depth nutrient profiles.  Meals can be saved and revisted, and ingredients can be removed or added from meals.  
+The NutrientCalculator app is a Javascript web app with a Rails API serving as the backend. It is an attempt to simplify meals by aggregating data from the Food Data Central API and compiling a complete nutritional breakdown of meal components.  Ingredients for meals are comprised of 7,000 database records with in-depth nutrient profiles.  Meals can be saved and revisted, and ingredients can be removed or added from meals. 
 
-
-
+<a href='https://github.com/antimonysayz/NutrientCalculator_Frontend'>Frontend Application</a>
 
 
 ## Local Installation
