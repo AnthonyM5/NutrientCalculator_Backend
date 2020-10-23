@@ -1,5 +1,9 @@
-# README
-Ruby Version:2.6.1
+# NutrientCalculator
+This is app is an attempt to simplify meals by aggregating data from the Food Data Central API and compiling a complete nutritional breakdown of meal components.  Ingredients for meals are comprised of 7,000 database records with in-depth nutrient profiles.  Meals can be saved and revisted, and ingredients can be removed or added from meals.  
+
+For front-end facing application please refer to: <a href='https://github.com/antimonysayz/NutrientCalculator_Frontend'>Front End</a>
+
+
 
 ## Local Installation
 - Clone this repository, and change into the correct directory.  Run bundle install to install all the necessary gems.  
@@ -12,3 +16,7 @@ Ruby Version:2.6.1
   + ```$ rake db:seed``` 
 
 
+## Requirements
+- Ruby Version: 2.6.1
+- PostgreSQL
+- <a href="https://fdc.nal.usda.gov/api-key-signup.html">Food Data Central API Key</a>
